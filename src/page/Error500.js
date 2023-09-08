@@ -12,7 +12,7 @@ function Error500() {
                                 <div className="text-center mt-4">
                                     <h1 className="display-1">500</h1>
                                     <p className="lead">Internal Server Error</p>
-                                    <a href="index.html">
+                                    <a href="dashboard">
                                         <i className="fas fa-arrow-left me-1"></i>
                                         Return to Dashboard
                                     </a>

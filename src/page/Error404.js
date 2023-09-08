@@ -12,7 +12,7 @@ function Error404() {
                                 <div className="text-center mt-4">
                                     <img className="mb-4 img-error" src="assets/img/error-404-monochrome.svg" />
                                     <p className="lead">This requested URL was not found on this server.</p>
-                                    <a href="index.html">
+                                    <a href="dashboard">
                                         <i className="fas fa-arrow-left me-1"></i>
                                         Return to Dashboard
                                     </a>
