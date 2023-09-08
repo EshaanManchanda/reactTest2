@@ -1,12 +1,6 @@
 import React from 'react'
 
 function Table() {
-    componentDidMount() {
-        const script=document.createElement('script');
-        script.scr='js/datatables-simple-demo.js';
-        script.async = true;
-        document.body.appendChild(script);
-    }
     return (
         <body className="sb-nav-fixed">
             <nav className="sb-topnav navbar navbar-expand navbar-dark bg-dark">
