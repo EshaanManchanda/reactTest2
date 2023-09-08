@@ -46,7 +46,7 @@ function Home() {
                         <div className="sb-sidenav-menu">
                             <div className="nav">
                                 <div className="sb-sidenav-menu-heading">Core</div>
-                                <a className="nav-link" href="home">
+                                <a className="nav-link" href="dashboard">
                                     <div className="sb-nav-link-icon"><i className="fas fa-tachometer-alt"></i></div>
                                     home
                                 </a>
@@ -58,8 +58,8 @@ function Home() {
                                 </a>
                                 <div className="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                     <nav className="sb-sidenav-menu-nested nav">
-                                        <a className="nav-link" href="layout-static.html">Static Navigation</a>
-                                        <a className="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
+                                        <a className="nav-link" href="layoutstatic">Static Navigation</a>
+                                        <a className="nav-link" href="layoutsidenav">Light Sidenav</a>
                                     </nav>
                                 </div>
                                 <a className="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
@@ -75,9 +75,9 @@ function Home() {
                                         </a>
                                         <div className="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                             <nav className="sb-sidenav-menu-nested nav">
-                                                <a className="nav-link" href="login.html">Login</a>
-                                                <a className="nav-link" href="register.html">Register</a>
-                                                <a className="nav-link" href="password.html">Forgot Password</a>
+                                                <a className="nav-link" href="/">Login</a>
+                                                <a className="nav-link" href="register">Register</a>
+                                                <a className="nav-link" href="password">Forgot Password</a>
                                             </nav>
                                         </div>
                                         <a className="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
@@ -86,19 +86,19 @@ function Home() {
                                         </a>
                                         <div className="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                             <nav className="sb-sidenav-menu-nested nav">
-                                                <a className="nav-link" href="401.html">401 Page</a>
-                                                <a className="nav-link" href="404.html">404 Page</a>
-                                                <a className="nav-link" href="500.html">500 Page</a>
+                                                <a className="nav-link" href="error401">401 Page</a>
+                                                <a className="nav-link" href="error404">404 Page</a>
+                                                <a className="nav-link" href="error500">500 Page</a>
                                             </nav>
                                         </div>
                                     </nav>
                                 </div>
                                 <div className="sb-sidenav-menu-heading">Addons</div>
-                                <a className="nav-link" href="charts.html">
+                                <a className="nav-link" href="charts">
                                     <div className="sb-nav-link-icon"><i className="fas fa-chart-area"></i></div>
                                     Charts
                                 </a>
-                                <a className="nav-link" href="tables.html">
+                                <a className="nav-link" href="table">
                                     <div className="sb-nav-link-icon"><i className="fas fa-table"></i></div>
                                     Tables
                                 </a>
@@ -682,6 +682,8 @@ function Home() {
                     </footer>
                 </div>
             </div>
+            <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+        <script src="%PUBLIC_URL%/js/datatables-simple-demo.js"></script>
         </body>
     );
 }
